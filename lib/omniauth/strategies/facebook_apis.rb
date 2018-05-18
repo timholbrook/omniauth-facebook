@@ -10,6 +10,8 @@ module OmniAuth
       class NoAuthorizationCodeError < StandardError; end
 
       DEFAULT_SCOPE = 'email'
+      
+      option :name, 'facebook_apis'
 
       option :client_options, {
         site: 'https://graph.facebook.com/v2.10',

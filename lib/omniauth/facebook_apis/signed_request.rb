@@ -1,7 +1,7 @@
 require 'openssl'
 
 module OmniAuth
-  module Facebook
+  module FacebookApis
     class SignedRequest
       class UnknownSignatureAlgorithmError < NotImplementedError; end
       SUPPORTED_ALGORITHM = 'HMAC-SHA256'
